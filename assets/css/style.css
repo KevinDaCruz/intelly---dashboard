@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 1px 0px 0px #e5e5e5;
+  padding: 20px 100px;
+}
+
+header img {
+  width: 6%;
+}
+
+header .search-bar {
+  position: relative;
+  width: 500px;
+}
+
+header .search-bar input {
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+header .search-bar i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #627b87;
+  cursor: pointer;
+}
+
+header .account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+header .account-logo {
+  border-radius: 50%;
+  background-color: #ffe6cc;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAIN */
+
+main {
+  background-color: #f6f8fa;
+  display: flex;
+}
+
+main .menu {
+  background-color: #eceef2;
+  height: 1300px;
+  width: 240px;
+}
+
+main .menu .subtitle {
+  padding: 20px;
+}
+
+main .menu .subtitle span {
+  font-size: 11px;
+  color: #082431;
+  opacity: 50%;
+  font-weight: 400;
+}
+
+main .row {
+  display: flex;
+  margin-top: 20px;
+  gap: 12px;
+  margin-left: 20px;
+}
+
+main .first {
+  background-color: rgba(80, 65, 120, 0.2);
+  padding: 16px;
+  width: 174px;
+  border-radius: 10px;
+}
+
+main .first i {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  text-align: center;
+}
+
+main .first p {
+  color: #504178;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+main .down-row {
+  color: #767d87;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main .down-row i {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+main .system {
+  margin-top: 50px;
+}
+
+/* MAIN DASHBOARD */
+
+main .content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 240px);
+  padding: 20px;
+}
+
+main .dashboard {
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1f384c;
+}
+
+main .percent {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+main .child {
+  flex: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+main .first-icon {
+  background: linear-gradient(135deg, #504178 0%, #ff7b8a 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+main .child i {
+  font-size: 38px;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+}
+
+main .numbers {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3%;
+  color: #1f384c;
+}
+
+main .stat-name {
+  color: #80809c;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.3%;
+  margin-top: 7px;
+}
+
+main .second-icon {
+  background: linear-gradient(135deg, #42ba17 0%, #9ff182 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+main .third-icon {
+  background: linear-gradient(135deg, #5a6acf 0%, #ff7b8a 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+main .fourth-icon {
+  background: linear-gradient(135deg, #d32136 0%, #ff7b8a 100%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* MAIN STATISTIK */
+
+main .statistik {
+  height: 500px;
+  width: calc(100% - 40px);
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 25px;
+}
+
+main h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f384c;
+}
+
+main .stat-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+main .calendar {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #00000033;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+main .calendar i {
+  font-size: 18px;
+  height: 18px;
+  width: 18px;
+}
+
+main .calendar p {
+  font-size: 14px;
+  font-weight: 600px;
+  color: #504178;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.3%;
+}
+
+main .graph {
+  display: flex;
+  width: 50%;
+  gap: 23px;
+  margin-top: 10px;
+  margin-top: 50px;
+}
+
+main .bloc-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .stat-bar-jan {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 70%, #ede7fd 30%);
+}
+
+main .stat-bar-feb {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 50%, #ede7fd 50%);
+}
+
+main .stat-bar-mar {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 60%, #ede7fd 40%);
+}
+
+main .stat-bar-apr {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 30%, #ede7fd 30%);
+}
+
+main .stat-bar-may {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 50%, #ede7fd 50%);
+}
+
+main .stat-bar-jun {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 65%, #ede7fd 35%);
+}
+
+main .stat-bar-jul {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 45%, #ede7fd 45%);
+}
+
+main .stat-bar-aug {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 80%, #ede7fd 20%);
+}
+
+main .stat-bar-sep {
+  height: 296px;
+  width: 20px;
+  background: linear-gradient(to top, #504178 65%, #ede7fd 35%);
+}
+
+main .stat-bar-sep {
+    height: 296px;
+    width: 20px;
+    background: linear-gradient(to top, #504178 70%, #ede7fd 30%);
+  }
+
+  main .stat-bar-oct {
+    height: 296px;
+    width: 20px;
+    background: linear-gradient(to top, #504178 55%, #ede7fd 45%);
+  }
+
+  main .stat-bar-nov {
+    height: 296px;
+    width: 20px;
+    background: linear-gradient(to top, #504178 75%, #ede7fd 25%);
+  }
+
+  main .stat-bar-dec {
+    height: 296px;
+    width: 20px;
+    background: linear-gradient(to top, #504178 60%, #ede7fd 40%);
+  }
+
+main .graph-numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
